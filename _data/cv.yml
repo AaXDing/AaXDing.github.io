@@ -11,10 +11,10 @@
   contents:
     - title: Master of Science in Intelligent Information Systems
       institution: Carnegie Mellon University
-      year: 2025.8 - 2026.12
+      date: 2025.8 - 2026.12
     - title: Bachelor of Science in Computer Science and Applied Mathematics
       institution: University of California, Los Angeles
-      year: 2021.9 - 2025.6
+      date: 2021.9 - 2025.6
       description:
         - GPA: 3.88/4.0
         - Relevant Coursework: Algorithm and Complexity, Computer Network, Machine Learning, Database Systems, Data Structure, Computer Organizations, Deep Learning, Computer Vision, Natural Language Processing, Graph Theory, Linear Algebra
@@ -24,4 +24,14 @@
   contents:
     - title: Full-Stack Software Engineer Intern
       company: VisionX LLC
-      year: 2023.7 - 2023.10
+      date: 2023.7 - 2023.10
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Undergraduate Researcher
+      institution: University of California, Los Angeles
+      date: 2024.6 - 2025.3
+    - title: Research Intern
+      institution: UCLA ARNI Lab
+      mentor: Prof. Christina Fragouli 
