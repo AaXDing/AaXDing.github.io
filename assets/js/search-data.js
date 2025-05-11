@@ -40,17 +40,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-bruin-o-bruin",
           title: 'Bruin O Bruin',
-          description: "with background image",
+          description: "Led a team of 4 to develop a web-based elimination gama built with Node.js, React, and SQLite, featuring randomized challenges, live discussion forums, and a real-time leaderboard; deployed on Azure, it engaged over 50 % of the class.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Bruin-O-Bruin.html";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-eeg-signal-classification",
+          title: 'EEG Signal Classification',
+          description: "Compared CNN, RNN, Transformer, and hybrid models on EEG signal analysis while sweeping hyper-parameters, time-bin resolutions, and augmentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EEG_classifiation.html";
-            },},{id: "projects-llm-evaluation",
-          title: 'LLM Evaluation',
-          description: "",
+            },},{id: "projects-evaluation-of-fairness-and-factualness-with-llm",
+          title: 'Evaluation of Fairness and Factualness with LLM',
+          description: "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning to assess fairness and factuality in textual claims, achieving a 76% accuracy rate.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLP_evaluation.html";
             },},{id: "projects-",
@@ -58,9 +58,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffedit.html";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "",
+            },},{id: "projects-job-search",
+          title: 'Job Search',
+          description: "A personalized job recommendation platform that suggests opportunities based on user interactions. It features a full-stack architecture with Java-based REST APIs, a responsive frontend, and a recommendation engine leveraging keyword extraction and user history. The web app uses Amazon RDS with Redis for caching and persistence.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/job_search.html";
             },},{
