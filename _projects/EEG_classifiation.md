@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: EEG Signal Classification
+description: Compared CNN, RNN, Transformer, and hybrid models on EEG signal analysis while sweeping hyper-parameters, time-bin resolutions, and augmentation.
+img: assets/img/EEG_classification.png
 importance: 3
 redirect: assets/pdf/EEG_classification.pdf
 category: Machine Learning
