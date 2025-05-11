@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Yuheng (Aaron) Ding
     - name: Email
       value: yhding@ucla.edu
@@ -21,13 +21,13 @@
       institution: Carnegie Mellon University
       year: "2025.8 - 2026.12"
       description:
-        - Focus: Machine Learning, Natural Language Processing
+        - "Focus: Machine Learning, Natural Language Processing"
     - title: Bachelor of Science in Computer Science and Applied Mathematics
       institution: University of California, Los Angeles
       year: "2021.9 - 2025.6"
       description:
-        - GPA: 3.88/4.0
-        - Relevant Coursework: Algorithms and Complexity, Computer Networks, Machine Learning, Database Systems, Data Structures, Computer Organization, Deep Learning, Computer Vision, Natural Language Processing, Graph Theory, Linear Algebra
+        - "GPA: 3.88/4.0"
+        - "Relevant Coursework: Algorithms and Complexity, Computer Networks, Machine Learning, Database Systems, Data Structures, Computer Organization, Deep Learning, Computer Vision, Natural Language Processing, Graph Theory, Linear Algebra"
 
 - title: Work Experience
   type: time_table
