@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -53,9 +53,9 @@ ninja.data = [{
           description: "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning to assess fairness and factuality in textual claims, achieving a 76% accuracy rate.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/NLP_evaluation.html";
-            },},{id: "projects-",
-          title: '',
-          description: "",
+            },},{id: "projects-diffedit-text-guided-image-editing-with-diffusion",
+          title: 'DiffEdit - Text Guided Image Editing with Diffusion',
+          description: "Combined DiffEdit, a text-conditioned diffusion models for semantic image editing, with BLIP and other text-to-image models to create a end-to-end generation and editing pipeline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffedit.html";
             },},{id: "projects-job-search",
