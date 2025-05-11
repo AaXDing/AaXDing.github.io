@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DiffEdit: Text Guided Image Editing with Diffusion
+title: DiffEdit - Text Guided Image Editing with Diffusion
 description: Combined DiffEdit, a text-conditioned diffusion models for semantic image editing, with BLIP and other text-to-image models to create a end-to-end generation and editing pipeline.
 img: assets/img/diffedit.png
 importance: 1
