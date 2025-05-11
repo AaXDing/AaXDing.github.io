@@ -30,12 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-we-re-excited-to-announce-that-our-paper-visco-benchmarking-fine-grained-critique-and-correction-towards-self-improvement-in-visual-reasoning-has-been-accepted-to-cvpr-2025",
+        },{id: "news-we-re-excited-to-announce-that-our-paper-visco-benchmarking-fine-grained-critique-and-correction-towards-self-improvement-in-visual-reasoning-has-been-accepted-to-cvpr-2025",
           title: 'We’re excited to announce that our paper, VISCO: Benchmarking Fine-Grained Critique and Correction...',
           description: "",
           section: "News",},{id: "projects-bruin-o-bruin",
@@ -47,7 +42,12 @@ ninja.data = [{
           title: 'EEG Signal Classification',
           description: "Compared CNN, RNN, Transformer, and hybrid models on EEG signal analysis while sweeping hyper-parameters, time-bin resolutions, and augmentation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/EEG_classifiation.html";
+              window.location.href = "/projects/EEG_Classification.html";
+            },},{id: "projects-job-search",
+          title: 'Job Search',
+          description: "A personalized job recommendation platform that suggests opportunities based on user interactions. It features a full-stack architecture with Java-based REST APIs, a responsive frontend, and a recommendation engine leveraging keyword extraction and user history. The web app uses Amazon RDS with Redis for caching and persistence.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/JobSearch.html";
             },},{id: "projects-evaluation-of-fairness-and-factualness-with-llm",
           title: 'Evaluation of Fairness and Factualness with LLM',
           description: "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning to assess fairness and factuality in textual claims, achieving a 76% accuracy rate.",
@@ -58,11 +58,6 @@ ninja.data = [{
           description: "Combined DiffEdit, a text-conditioned diffusion models for semantic image editing, with BLIP and other text-to-image models to create a end-to-end generation and editing pipeline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffedit.html";
-            },},{id: "projects-job-search",
-          title: 'Job Search',
-          description: "A personalized job recommendation platform that suggests opportunities based on user interactions. It features a full-stack architecture with Java-based REST APIs, a responsive frontend, and a recommendation engine leveraging keyword extraction and user history. The web app uses Amazon RDS with Redis for caching and persistence.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/job_search.html";
             },},{
         id: 'social-email',
         title: 'email',
