@@ -7,4 +7,3 @@ importance: 3
 redirect: assets/pdf/EEG_classification.pdf
 category: Machine Learning
 ---
-
