@@ -1,22 +1,11 @@
 {
   "basics": {
-    "name": "Yuheng Ding",
+    "name": "Yuheng (Aaron) Ding",
     "label": "Computer Science & Applied Mathematics student and incoming MIIS graduate student",
     "email": "yhding@ucla.edu",
     "phone": "706-238-1952",
-    "url": "https://github.com/AaXDing",
-    "profiles": [
-      {
-        "network": "GitHub",
-        "username": "AaXDing",
-        "url": "https://github.com/AaXDing"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "yuheng-ding",
-        "url": "https://linkedin.com/in/yuheng-ding"
-      }
-    ],
+    "github url": "https://github.com/AaXDing",
+    "linkedin url": "https://linkedin.com/in/yuheng-ding",
     "summary": "Undergraduate at UCLA (CS & Applied Math, GPA 3.88) with experience in full-stack development, AI research, and software engineering, joining CMU's MIIS program to deepen expertise in intelligent information systems."
   },
   "education": [
@@ -51,37 +40,38 @@
   ],
   "publications": [
     {
-      "name": "VISCore: A Benchmark for Self\u2011Critique in Visual Language Models",
+      "name": "VISCO: Benchmarking Fine-Grained Critique and Correction Towards Self-Improvement in Visual Reasoning",
       "publisher": "CVPR 2025",
       "releaseDate": "2025-02"
     }
   ],
-  "work": [
+  "work experience": [
     {
       "name": "VisionX LLC",
       "position": "Full-Stack Software Engineer Intern",
       "startDate": "2023-07",
       "endDate": "2023-10",
-      "summary": "Developed and enhanced a full-stack e-commerce platform championing healthy lifestyle and sustainability.",
+      "summary": "Collaborate with a team of 4 engineers to architect a full-stack e-commerce platform, with a focus on promoting a healthy lifestyle and fostering environmental sustainability.",
       "highlights": [
-        "Built reusable product page template with Django and MongoDB, boosting creation efficiency by 400%.",
-        "Integrated Stripe payments and email confirmations, cutting checkout latency by 30%.",
-        "Added real-time voice/video reservation system via WebSocket & WebRTC, shortening confirmation time by 60%."
+        "Engineered a product page UI template using Python Django framework for backend and MongoDB for data persistence; streamlined automatic page creation from database; enhanced scalability and amplified product creation efficiency by 400% over manual page inputting.",
+        "Improved user information gathering, payment workflow with Stripe API, and email order confirmations; achieved a 30% reduction in checkout process response time.",
+        "Collaborated with a colleague to enhance online consulting session reservation system, integrating voice and video chat functionalities by using WebSocket and WebRTC technologies, resulting in 60% decrease in reservation confirmation time."
       ]
     }
   ],
-  "research": [
+  "research experience": [
     {
       "institution": "UCLA NLP, UCLA PLUS Lab",
       "position": "Undergraduate Researcher",
       "supervisors": ["Kai-Wei Chang", "Nanyun Peng"],
       "startDate": "2024-06",
       "endDate": "2025-03",
-      "summary": "Benchmarking visual language models for perception and reasoning QA tasks (CVPR 2025).",
+      "summary": "Developed a comprehensive benchmark for evaluating visual language models (VLMs) on perception and reasoning quality in QA tasks",
       "highlights": [
-        "Created VISCore metric combining accuracy and critique quality.",
-        "Designed annotation tool collecting 1,600 fine-grained samples.",
-        "Agent-based critique generation increased critique accuracy by 8%."
+        "Developed an intuitive annotation tool that improved the annotator experience, enabling efficient curation of over 1,600 fine-grained annotated samples for a high-quality dataset.",
+        "Tested on over 25 VLMs to assess self-critique and correction abilities.",
+        "Introduced a novel evaluation metric, namely VISCore, which incorporated answer accuracy, step-wise critique accuracy, and critique quality, leading to more accurate assessments.",
+        "Improved critique accuracy by 8% through agent-based critique generation."
       ]
     },
     {
@@ -90,10 +80,11 @@
       "supervisors": ["Christina Fragouli"],
       "startDate": "2023-07",
       "endDate": "2023-09",
-      "summary": "Optimized infection identification in community networks through graph theory.",
+      "summary": "Refined a graph theory solution to minimize tests and time used in identifying infection within a community network using Python.",
       "highlights": [
-        "Community-aware diagonal splitting algorithm reduced tests by 10%.",
-        "Data pre-generation and logging tools cut runtime by 70%."
+        "Developed data pre-generation script using Python, resulting in a 70% reduction in test time for a population size of 20k.",
+        "Improved testing script with Jupyter and JSON that enabled test creation and logging with 20% overhead reduction.",
+        "Originated a community-aware diagonal splitting algorithm using a divide-and-conquer strategy which factored in community structure; the new algorithm needed 10% less tests compared to 5 other commonly-used algorithms."
       ]
     }
   ],
@@ -104,9 +95,11 @@
       "endDate": "2024-01",
       "summary": "Personalized job recommendation platform.",
       "highlights": [
-        "Built Java Servlets REST API and JS frontend.",
-        "Implemented AI keyword extraction and recommendation engine.",
-        "Deployed on AWS; handled 10k QPS, reducing latency by 90%."
+        "Constructed a job search platform that personalized job recommendations merely based on user views and likes",
+        "Incorporated Search, Favorite, and Recommendation functionalities in Java Servlets with REST APIs to efficiently handle HTTP requests and responses.",
+        "Implemented frontend UI components using JavaScript, HTML, CSS, and Ajax, facilitating user login and enabling users to efficiently search and apply for positions.",
+        "Designed AI-based keyword extraction algorithms and history-based recommendation to implement a job recommendation engine; Prioritized user safety through session-based authentication.",
+        "Configured and deployed on AWS EC2 virtual machine, combining Redis and Amazon RDS to cache and persist search and favorite related data; scaled the system to be able to serve 10k queries per second (QPS) and reduced latency by 90%."
       ]
     },
     {
@@ -114,7 +107,10 @@
       "startDate": "2024-01",
       "endDate": "2024-03",
       "summary": "Zero-shot evaluation framework for large language models.",
-      "highlights": ["Led research on prompting techniques; achieved 76% accuracy.", "Incorporated chain-of-thought evidence generation."]
+      "highlights": [
+        "Led a team of 4 in researching prompting techniques, enhancing the factual accuracy and fairness assessment of LLMs on textual claims.",
+        "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning to assess designated tasks, achieving a 76% accuracy rate."
+      ]
     },
     {
       "name": "Text-Guided Image Editing with Diffusion",
@@ -127,14 +123,18 @@
       "name": "Bruin-O-Bruin Web App",
       "startDate": "2022-10",
       "endDate": "2022-12",
-      "summary": "Class elimination game web app built with Node.js and React.",
-      "highlights": ["Implemented game logic, forum, and scoreboard; achieved 50% class participation."]
+      "summary": "Elimination game web app",
+      "highlights": [
+        "Coordinated with a team of 5 to build a full-stack elimination web game using Node.js, React framework, and SQLite.",
+        "Led implementation of core features including game randomization, discussion forum, and scoreboard; ensured instantaneous user interactions.",
+        "Launched account management features, including user registration, password protection with hashing, and password reset by using Node.js and SQLite; the feature led to 30% decrease in user support requests.",
+        "Launched on Azure VM and shared the app to our class forum; achieved over 50% class participation rate where players could compete on score leaderboard."
+      ]
     }
   ],
   "skills": [
     {
       "name": "Programming Languages & Frameworks",
-      "level": "Advanced",
       "keywords": [
         "Java",
         "Spring Boot",
@@ -154,12 +154,10 @@
     },
     {
       "name": "Databases & Data",
-      "level": "Intermediate-Advanced",
       "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Spark"]
     },
     {
       "name": "DevOps & Cloud",
-      "level": "Intermediate",
       "keywords": ["AWS", "Azure", "Docker", "Kubernetes", "Linux", "Git"]
     }
   ],
