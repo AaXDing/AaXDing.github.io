@@ -38,51 +38,31 @@ ninja.data = [{
             },},{id: "news-we-re-excited-to-announce-that-our-paper-visco-benchmarking-fine-grained-critique-and-correction-towards-self-improvement-in-visual-reasoning-has-been-accepted-to-cvpr-2025",
           title: 'We’re excited to announce that our paper, VISCO: Benchmarking Fine-Grained Critique and Correction...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-bruin-o-bruin",
+          title: 'Bruin O Bruin',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project.html";
+              window.location.href = "/projects/Bruin-O-Bruin.html";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/EEG_classifiation.html";
+            },},{id: "projects-llm-evaluation",
+          title: 'LLM Evaluation',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project.html";
+              window.location.href = "/projects/NLP_evaluation.html";
+            },},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/diffedit.html";
             },},{id: "projects-project-4",
           title: 'project 4',
-          description: "another without an image",
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project.html";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project.html";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project.html";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project.html";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project.html";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project.html";
+              window.location.href = "/projects/job_search.html";
             },},{
         id: 'social-email',
         title: 'email',
