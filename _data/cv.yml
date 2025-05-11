@@ -3,35 +3,118 @@
   contents:
     - name: Full Name
       value: Yuheng (Aaron) Ding
-    - name: Languages
-      value: English, Mandarin, Spanish
+    - name: Email
+      value: yhding@ucla.edu
+    - name: Phone
+      value: 706-238-1952
+    - name: GitHub
+      value: <a href="https://github.com/AaXDing">https://github.com/AaXDing</a>
+    - name: LinkedIn
+      value: <a href="https://linkedin.com/in/yuheng-ding">https://linkedin.com/in/yuheng-ding</a>
+    - name: Summary
+      value: Undergraduate at UCLA (CS & Applied Math, GPA 3.88) with experience in full-stack development, AI research, and software engineering, joining CMU's MIIS program to deepen expertise in intelligent information systems.
 
 - title: Education
   type: time_table
   contents:
     - title: Master of Science in Intelligent Information Systems
       institution: Carnegie Mellon University
-      date: 2025.8 - 2026.12
+      year: "2025.8 - 2026.12"
+      description:
+        - Focus: Machine Learning, Natural Language Processing
     - title: Bachelor of Science in Computer Science and Applied Mathematics
       institution: University of California, Los Angeles
-      date: 2021.9 - 2025.6
+      year: "2021.9 - 2025.6"
       description:
         - GPA: 3.88/4.0
-        - Relevant Coursework: Algorithm and Complexity, Computer Network, Machine Learning, Database Systems, Data Structure, Computer Organizations, Deep Learning, Computer Vision, Natural Language Processing, Graph Theory, Linear Algebra
+        - Relevant Coursework: Algorithms and Complexity, Computer Networks, Machine Learning, Database Systems, Data Structures, Computer Organization, Deep Learning, Computer Vision, Natural Language Processing, Graph Theory, Linear Algebra
 
 - title: Work Experience
   type: time_table
   contents:
-    - title: Full-Stack Software Engineer Intern
-      company: VisionX LLC
-      date: 2023.7 - 2023.10
+    - title: "Full-Stack Software Engineer Intern"
+      company: "VisionX LLC"
+      year: "2023.7 - 2023.10"
+      description:
+        - "Collaborated with a team of 4 engineers to architect a full-stack e-commerce platform, with a focus on promoting a healthy lifestyle and fostering environmental sustainability"
+        - "Engineered a product page UI template using Python Django framework for backend and MongoDB for data persistence; streamlined automatic page creation from database; enhanced scalability and amplified product creation efficiency by 400% over manual page inputting"
+        - "Improved user information gathering, payment workflow with Stripe API, and email order confirmations; achieved a 30% reduction in checkout process response time"
+        - "Collaborated with a colleague to enhance online consulting session reservation system, integrating voice and video chat functionalities by using WebSocket and WebRTC technologies, resulting in 60% decrease in reservation confirmation time"
 
 - title: Research Experience
   type: time_table
   contents:
     - title: Undergraduate Researcher
-      institution: University of California, Los Angeles
-      date: 2024.6 - 2025.3
+      institution: "UCLA NLP, UCLA PLUS Lab (Advisor: Prof. Kai-Wei Chang, Prof. Nanyun Peng)"
+      year: 2024.6 - 2025.3
+      description:
+        - "Developed a comprehensive benchmark for evaluating visual language models (VLMs) on perception and reasoning quality in QA tasks"
+        - "Developed an intuitive annotation tool that improved the annotator experience, enabling efficient curation of over 1,600 fine-grained annotated samples"
+        - "Tested on over 25 VLMs to assess self-critique and correction abilities"
+        - "Introduced a novel evaluation metric, namely VISCore, which incorporated answer accuracy, step-wise critique accuracy, and critique quality"
+        - "Improved critique accuracy by 8% through agent-based critique generation"
     - title: Research Intern
-      institution: UCLA ARNI Lab
-      mentor: Prof. Christina Fragouli
+      institution: "UCLA ARNI Lab (Advisor: Prof. Christina Fragouli)"
+      year: "2023.7 - 2023.9"
+      description:
+        - "Refined a graph theory solution to minimize tests and time used in identifying infection within a community network using Python"
+        - "Developed data pre-generation script using Python, resulting in a 70% reduction in test time for a population size of 20k"
+        - "Improved testing script with Jupyter and JSON that enabled test creation and logging with 20% overhead reduction"
+        - "Originated a community-aware diagonal splitting algorithm using a divide-and-conquer strategy which factored in community structure; the new algorithm needed 10% less tests compared to 5 other commonly-used algorithms"
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "VISCO: Benchmarking Fine-Grained Critique and Correction Towards Self-Improvement in Visual Reasoning"
+      publisher: "CVPR 2025"
+      year: "2025.02"
+
+- title: Projects
+  type: time_table
+  contents:
+    - title: "Job Search Platform"
+      year: "2023.10 - 2024.01"
+      description:
+        - "Constructed a job search platform that personalized job recommendations merely based on user views and likes"
+        - "Incorporated Search, Favorite, and Recommendation functionalities in Java Servlets with REST APIs"
+        - "Implemented frontend UI components using JavaScript, HTML, CSS, and Ajax"
+        - "Designed AI-based keyword extraction algorithms and history-based recommendation engine"
+        - "Configured and deployed on AWS EC2 virtual machine, combining Redis and Amazon RDS; scaled to 10k QPS and reduced latency by 90%"
+    - title: "LLM Evaluation"
+      year: "2024.01 - 2024.03"
+      description:
+        - "Led a team of 4 in researching prompting techniques, enhancing the factual accuracy and fairness assessment of LLMs"
+        - "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning"
+        - "Achieved a 76% accuracy rate in assessment tasks"
+    - title: "Text-Guided Image Editing with Diffusion"
+      year: "2024.02 - 2024.03"
+      description:
+        - "Image editing via DiffEdit + BLIP with Stable Diffusion"
+        - "Reduced prompt restrictions and improved creation efficiency"
+    - title: "Bruin-O-Bruin Web App"
+      year: "2022.10 - 2022.12"
+      description:
+        - "Coordinated with a team of 5 to build a full-stack elimination web game using Node.js, React framework, and SQLite"
+        - "Led implementation of core features including game randomization, discussion forum, and scoreboard"
+        - "Launched account management features with password protection and reset functionality"
+        - "Deployed on Azure VM and achieved over 50% class participation rate"
+
+- title: Skills
+  type: map
+  contents:
+    - name: "Programming Languages & Frameworks"
+      value: "Java, Spring Boot, Tomcat, Python, Django, PyTorch, NumPy, C++, JavaScript, React, SQL, Bash, HTML, CSS"
+    - name: "Databases & Data"
+      value: "MySQL, PostgreSQL, SQLite, MongoDB, Redis, Spark"
+    - name: "DevOps & Cloud"
+      value: "AWS, Azure, Docker, Kubernetes, Linux, Git"
+
+- title: Languages
+  type: map
+  contents:
+    - name: English
+      value: Professional
+    - name: Mandarin
+      value: Native
+    - name: Spanish
+      value: Intermediate
