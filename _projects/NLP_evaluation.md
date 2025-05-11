@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: LLM Evaluation
+description: 
+img: assets/img/7.jpg
+redirect: 
+importance: 2
+category: Machine Learning
 ---
 
 Every project has a beautiful feature showcase page.
