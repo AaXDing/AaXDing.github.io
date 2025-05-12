@@ -58,6 +58,11 @@ ninja.data = [{
           description: "Combined DiffEdit, a text-conditioned diffusion models for semantic image editing, with BLIP and other text-to-image models to create a end-to-end generation and editing pipeline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffedit.html";
+            },},{id: "projects-sorting-visualizer",
+          title: 'Sorting Visualizer',
+          description: "Developed an interactive sorting algorithm visualizer using Vite, React, TypeScript, and Tailwind CSS. The tool features real-time animations of algorithms like Bubble Sort, synchronized with pseudocode display.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sorting-visualizer.html";
             },},{
         id: 'social-email',
         title: 'email',
