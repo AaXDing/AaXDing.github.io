@@ -80,17 +80,17 @@
         - "Implemented frontend UI components using JavaScript, HTML, CSS, and Ajax"
         - "Designed AI-based keyword extraction algorithms and history-based recommendation engine"
         - "Configured and deployed on AWS EC2 virtual machine, combining Redis and Amazon RDS; scaled to 10k QPS and reduced latency by 90%"
+    - title: "DiffEdit: Text-Guided Image Editing with Diffusion"
+      year: "2024.02 - 2024.03"
+      description:
+        - "Image editing via DiffEdit + BLIP with Stable Diffusion"
+        - "Reduced prompt restrictions and improved creation efficiency"
     - title: "LLM Evaluation"
       year: "2024.01 - 2024.03"
       description:
         - "Led a team of 4 in researching prompting techniques, enhancing the factual accuracy and fairness assessment of LLMs"
         - "Developed a zero-shot evaluation framework using Microsoft Phi-2 and Mistral-7B, incorporating GPT-generated evidence and chain-of-thought reasoning"
         - "Achieved a 76% accuracy rate in assessment tasks"
-    - title: "Text-Guided Image Editing with Diffusion"
-      year: "2024.02 - 2024.03"
-      description:
-        - "Image editing via DiffEdit + BLIP with Stable Diffusion"
-        - "Reduced prompt restrictions and improved creation efficiency"
     - title: "Bruin-O-Bruin Web App"
       year: "2022.10 - 2022.12"
       description:

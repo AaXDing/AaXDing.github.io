@@ -21,6 +21,8 @@ announcements:
 
 Hi, I’m Aaron. I’m currently an undergraduate at `UCLA` majoring in `Computer Science` and `Applied Mathematics`, with expected graduation in June 2025. This fall, I’ll be joining `Carnegie Mellon University` as a master’s student in the `Master of Intelligent Information Systems (MIIS)` program at the Language Technologies Institute (LTI). My academic interests lie at the intersection of artificial intelligence and natural language processing, and I’ve had the opportunity to explore these through research on visual language models and fairness evaluation in LLMs. I also enjoy full-stack development and have interned as a software engineer, contributing to scalable systems in both backend and frontend domains.
 
+[Checkout my resume here](https://drive.google.com/file/d/139eWrQDqbsUmv7zB1CviA5WAaoPoiHU0/view?usp=share_link)
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
