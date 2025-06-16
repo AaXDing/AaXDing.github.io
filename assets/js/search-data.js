@@ -58,6 +58,11 @@ ninja.data = [{
           description: "Combined DiffEdit, a text-conditioned diffusion models for semantic image editing, with BLIP and other text-to-image models to create a end-to-end generation and editing pipeline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diffedit.html";
+            },},{id: "projects-high-performance-url-shortening-web-server",
+          title: 'High Performance URL Shortening Web Server',
+          description: "Designed and developed an asynchronous C++ web server using Boost.Asio, featuring a modular architecture and a URL shortening service backed by Redis caching and PostgreSQL persistence. Deployed the system on Google Cloud Platform using Docker containers, with a CI/CD pipeline powered by Cloud Build for automated testing and deployment. The project incorporated robust testing with Google Test, secure cloud networking, and production-grade monitoring and logging, demonstrating strong skills in systems programming, cloud infrastructure, and backend development.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/shorten_url.html";
             },},{id: "projects-sorting-visualizer",
           title: 'Sorting Visualizer',
           description: "Developed an interactive sorting algorithm visualizer using Vite, React, TypeScript, and Tailwind CSS. The tool features real-time animations of algorithms like Bubble Sort, synchronized with pseudocode display.",
