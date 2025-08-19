@@ -19,7 +19,9 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-Hi, I’m Aaron. I’m currently an undergraduate at `UCLA` majoring in `Computer Science` and `Applied Mathematics`, with expected graduation in June 2025. This fall, I’ll be joining `Carnegie Mellon University` as a master’s student in the `Master of Intelligent Information Systems (MIIS)` program at the Language Technologies Institute (LTI). My academic interests lie at the intersection of artificial intelligence and natural language processing, and I’ve had the opportunity to explore these through research on visual language models and fairness evaluation in LLMs. I also enjoy full-stack development and have interned as a software engineer, contributing to scalable systems in both backend and frontend domains.
+Hello! I'm Yuheng Ding, but you can call me Aaron. I’m a Master's student in the `Master of Intelligent Information Systems (MIIS)` program at `Carnegie Mellon University`'s Language Technologies Institute (School of Computer Science). I recently graduated from `UCLA` with dual Bachelor's degrees in `Computer Science` and `Applied Mathematics`.
+
+My academic interests lie at the intersection of artificial intelligence and natural language processing, and I’ve had the opportunity to explore these through research on visual language models and fairness evaluation in LLMs. I also enjoy full-stack development and have interned as a software engineer, contributing to scalable systems in both backend and frontend domains.
 
 [Checkout my resume here]({{ site.baseurl }}/assets/pdf/Yuheng_Ding_Resume.pdf)
 
