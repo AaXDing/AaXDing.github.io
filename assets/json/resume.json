@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Yuheng (Aaron) Ding",
-    "label": "Computer Science & Applied Mathematics student and incoming MIIS graduate student",
-    "email": "yhding@ucla.edu",
+    "label": "Master's of Intelligent Information Systems at Carnegie Mellon University School of Computer Science",
+    "email": "ading2@andrew.cmu.edu",
     "phone": "706-238-1952",
     "github url": "https://github.com/AaXDing",
     "linkedin url": "https://linkedin.com/in/yuheng-ding",
-    "summary": "Undergraduate at UCLA (CS & Applied Math, GPA 3.88) with experience in full-stack development, AI research, and software engineering, joining CMU's MIIS program to deepen expertise in intelligent information systems."
+    "summary": "Master student at Language Technology Institute focused on Multimodal Reasoning with experience in full-stack development, AI research, and software engineering, joining CMU's MIIS program to deepen expertise in intelligent information systems."
   },
   "education": [
     {
@@ -63,7 +63,10 @@
     {
       "institution": "UCLA NLP, UCLA PLUS Lab",
       "position": "Undergraduate Researcher",
-      "supervisors": ["Kai-Wei Chang", "Nanyun Peng"],
+      "supervisors": [
+        "Kai-Wei Chang",
+        "Nanyun Peng"
+      ],
       "startDate": "2024-06",
       "endDate": "2025-03",
       "summary": "Developed a comprehensive benchmark for evaluating visual language models (VLMs) on perception and reasoning quality in QA tasks",
@@ -77,7 +80,9 @@
     {
       "institution": "UCLA ARNI Lab",
       "position": "Research Intern",
-      "supervisors": ["Christina Fragouli"],
+      "supervisors": [
+        "Christina Fragouli"
+      ],
       "startDate": "2023-07",
       "endDate": "2023-09",
       "summary": "Refined a graph theory solution to minimize tests and time used in identifying infection within a community network using Python.",
@@ -90,6 +95,16 @@
   ],
   "projects": [
     {
+      "name": "High Performance URL Shortening Web Server",
+      "startDate": "2025-04",
+      "endDate": "2025-06",
+      "highlights": [
+        "Led a team of 4 in building a low-cost, high-performance async TCP server in C++ with Boost.Asio following test-driven development; authored a system design document and technical documentation to guide product architecture.",
+        "Designed application architecture design for a scalable URL shortening service with Redis caching and PostgreSQL persistence, leveraging connection pooling to support 1,000+ concurrent users.",
+        "Deployed service on Google Cloud Platform using Docker and Compute Engine; automated CI/CD with Cloud Build, to ensure zero-downtime deployments and automatic recovery through automated testing and health checks."
+      ]
+    },
+    {
       "name": "Job Search Platform",
       "startDate": "2023-10",
       "endDate": "2024-01",
@@ -98,8 +113,9 @@
         "Constructed a job search platform that personalized job recommendations merely based on user views and likes",
         "Incorporated Search, Favorite, and Recommendation functionalities in Java Servlets with REST APIs to efficiently handle HTTP requests and responses.",
         "Implemented frontend UI components using JavaScript, HTML, CSS, and Ajax, facilitating user login and enabling users to efficiently search and apply for positions.",
-        "Designed AI-based keyword extraction algorithms and history-based recommendation to implement a job recommendation engine; Prioritized user safety through session-based authentication.",
-        "Configured and deployed on AWS EC2 virtual machine, combining Redis and Amazon RDS to cache and persist search and favorite related data; scaled the system to be able to serve 10k queries per second (QPS) and reduced latency by 90%."
+        "Designed a recommendation engine with dense-embeddings and AI-based keyword extraction to model user interests; Prioritized user safety through session-based authentication.",
+        "Implemented Redis as a high-speed vector database to store job/user embeddings and precomputed results, reducing embedding API calls by 80%+ and enabling sub-millisecond cosine-similarity retrieval.",
+        "Configured and deployed on AWS EC2 virtual machine, combining Redis and Amazon RDS to cache and persist search and favorite related data, reducing latency by 90%."
       ]
     },
     {
@@ -117,7 +133,9 @@
       "startDate": "2024-02",
       "endDate": "2024-03",
       "summary": "Image editing via DiffEdit + BLIP with Stable Diffusion.",
-      "highlights": ["Reduced prompt restrictions and improved creation efficiency."]
+      "highlights": [
+        "Reduced prompt restrictions and improved creation efficiency."
+      ]
     },
     {
       "name": "Bruin-O-Bruin Web App",
@@ -137,13 +155,13 @@
       "name": "Programming Languages & Frameworks",
       "keywords": [
         "Java",
+        "Python",
+        "C++",
+        "PyTorch",
         "Spring Boot",
         "Tomcat",
-        "Python",
-        "Django",
-        "PyTorch",
         "NumPy",
-        "C++",
+        "Django",
         "JavaScript",
         "React",
         "SQL",
@@ -154,11 +172,23 @@
     },
     {
       "name": "Databases & Data",
-      "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis", "Spark"]
+      "keywords": [
+        "MySQL",
+        "PostgreSQL",
+        "SQLite",
+        "MongoDB",
+        "Redis"
+      ]
     },
     {
       "name": "DevOps & Cloud",
-      "keywords": ["AWS", "Azure", "Docker", "Kubernetes", "Linux", "Git"]
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Docker",
+        "Linux",
+        "Git"
+      ]
     }
   ],
   "languages": [

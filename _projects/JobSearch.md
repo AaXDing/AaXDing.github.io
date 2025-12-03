@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Job Search
-description: A personalized job recommendation platform that suggests opportunities based on user interactions. It features a full-stack architecture with Java-based REST APIs, a responsive frontend, and a recommendation engine leveraging keyword extraction and user history. The web app uses Amazon RDS with Redis for caching and persistence.
+description: A personalized job recommendation platform that learns user preferences from their views and likes. Built with Java-based REST APIs and a scalable backend, the system uses dense embeddings, GPT-based preference extraction, and Redis vector search to deliver real-time, personalized recommendations. The platform integrates Amazon RDS for persistent job data and Redis for high-speed caching, embedding storage, and precomputed top-K results.
 img: assets/img/job_search1.png
-redirect: https://github.com/AaXDing/JobSearch
-importance: 2
+# redirect: https://github.com/AaXDing/JobSearch
+importance: 1
 category: Software Development
 ---
