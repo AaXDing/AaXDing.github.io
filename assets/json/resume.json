@@ -63,10 +63,7 @@
     {
       "institution": "UCLA NLP, UCLA PLUS Lab",
       "position": "Undergraduate Researcher",
-      "supervisors": [
-        "Kai-Wei Chang",
-        "Nanyun Peng"
-      ],
+      "supervisors": ["Kai-Wei Chang", "Nanyun Peng"],
       "startDate": "2024-06",
       "endDate": "2025-03",
       "summary": "Developed a comprehensive benchmark for evaluating visual language models (VLMs) on perception and reasoning quality in QA tasks",
@@ -80,9 +77,7 @@
     {
       "institution": "UCLA ARNI Lab",
       "position": "Research Intern",
-      "supervisors": [
-        "Christina Fragouli"
-      ],
+      "supervisors": ["Christina Fragouli"],
       "startDate": "2023-07",
       "endDate": "2023-09",
       "summary": "Refined a graph theory solution to minimize tests and time used in identifying infection within a community network using Python.",
@@ -94,6 +89,24 @@
     }
   ],
   "projects": [
+    {
+      "name": "Ego2Allo - Toward Perspective-Taking Visual Reasoning",
+      "startDate": "2025-10",
+      "endDate": "2025-12",
+      "highlights": [
+        "Fine-tuned VLMs for spatial perspective-taking tasks with SFT and RL-GRPO, achieving 10% higher accuracy.",
+        "Incorporated ReAct-based function calling to abstract perspective change agentic pipeline emphasizing structured reasoning, improving accuracy by 3%."
+      ]
+    },
+    {
+      "name": "Pittsburgh & CMU QA System ",
+      "startDate": "2025-10",
+      "endDate": "2025-11",
+      "highlights": [
+        "Collaborate in a team of 3 in building an end-to-end RAG QA system with multiple chunking granularities.",
+        "Created a Small-to-Big hybrid retriever that compute weighted fusion of BM25 score on sentence-level chunks and MiniLM-L6-v2 dense cosine similarity on paragraph-level chunks, achieving 75% accuracy under LLM evaluation."
+      ]
+    },
     {
       "name": "High Performance URL Shortening Web Server",
       "startDate": "2025-04",
@@ -133,9 +146,7 @@
       "startDate": "2024-02",
       "endDate": "2024-03",
       "summary": "Image editing via DiffEdit + BLIP with Stable Diffusion.",
-      "highlights": [
-        "Reduced prompt restrictions and improved creation efficiency."
-      ]
+      "highlights": ["Reduced prompt restrictions and improved creation efficiency."]
     },
     {
       "name": "Bruin-O-Bruin Web App",
@@ -172,23 +183,11 @@
     },
     {
       "name": "Databases & Data",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "SQLite",
-        "MongoDB",
-        "Redis"
-      ]
+      "keywords": ["MySQL", "PostgreSQL", "SQLite", "MongoDB", "Redis"]
     },
     {
       "name": "DevOps & Cloud",
-      "keywords": [
-        "AWS",
-        "Azure",
-        "Docker",
-        "Linux",
-        "Git"
-      ]
+      "keywords": ["AWS", "Azure", "Docker", "Linux", "Git"]
     }
   ],
   "languages": [
