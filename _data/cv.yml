@@ -4,7 +4,7 @@
     - name: Name
       value: Yuheng (Aaron) Ding
     - name: Email
-      value: yhding@ucla.edu
+      value: ading2@andrew.cmu.edu
     - name: Phone
       value: 706-238-1952
     - name: GitHub
@@ -12,7 +12,7 @@
     - name: LinkedIn
       value: <a href="https://linkedin.com/in/yuheng-ding">https://linkedin.com/in/yuheng-ding</a>
     - name: Summary
-      value: Undergraduate at UCLA (CS & Applied Math, GPA 3.88) with experience in software engineering and AI research, joining CMU's MIIS program to deepen expertise in intelligent information systems.
+      value: Master in NLP and AI at Carnegie Mellon University School of Computer Science, with experience in software engineering and AI research.
 
 - title: Education
   type: time_table
@@ -72,6 +72,22 @@
 - title: Projects
   type: time_table
   contents:
+    - title: "Ego2Allo - Toward Perspective-Taking Visual Reasoning"
+      year: "2025.10 - 2025.12"
+      description:
+        - "Fine-tuned VLMs for spatial perspective-taking tasks with SFT and RL-GRPO, achieving 10% higher accuracy."
+        - "Incorporated ReAct-based function calling to abstract perspective change agentic pipeline emphasizing structured reasoning, improving accuracy by 3%."
+    - title: "Pittsburgh & CMU QA System ",
+      year: "2025.10 - 2025.11"
+      description:
+        - "Collaborate in a team of 3 in building an end-to-end RAG QA system with multiple chunking granularities."
+        - "Created a Small-to-Big hybrid retriever that compute weighted fusion of BM25 score on sentence-level chunks and MiniLM-L6-v2 dense cosine similarity on paragraph-level chunks, achieving 75% accuracy under LLM evaluation."
+    - title: "High Performance URL Shortening Web Server",
+      year: "2025.04 - 2025.06",
+      description:
+        - "Led a team of 4 in building a low-cost, high-performance async TCP server in C++ with Boost.Asio following test-driven development; authored a system design document and technical documentation to guide product architecture."
+        - "Designed application architecture design for a scalable URL shortening service with Redis caching and PostgreSQL persistence, leveraging connection pooling to support 1,000+ concurrent users."
+        - "Deployed service on Google Cloud Platform using Docker and Compute Engine; automated CI/CD with Cloud Build, to ensure zero-downtime deployments and automatic recovery through automated testing and health checks."
     - title: "Job Search Platform"
       year: "2023.10 - 2024.01"
       description:
@@ -113,7 +129,7 @@
   type: map
   contents:
     - name: English
-      value: Professional
+      value: Native
     - name: Mandarin
       value: Native
     - name: Spanish
