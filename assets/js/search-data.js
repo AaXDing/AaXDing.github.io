@@ -38,11 +38,21 @@ ninja.data = [{
           description: "Led a team of 4 to develop a web-based elimination gama built with Node.js, React, and SQLite, featuring randomized challenges, live discussion forums, and a real-time leaderboard; deployed on Azure, it engaged over 50 % of the class.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Bruin-O-Bruin.html";
+            },},{id: "projects-cmu-pittsburgh-qa-system",
+          title: 'CMU Pittsburgh QA System',
+          description: "Collaborated in a team of three to build an end-to-end retrieval-augmented generation (RAG) QA system with multi-granularity chunking. Designed a Small-to-Big hybrid retriever that fuses BM25 sentence-level retrieval with MiniLM-L6-v2 paragraph-level dense similarity via weighted score aggregation, achieving 75% accuracy under LLM-based evaluation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/CMU_Pittsburgh_QA_system.html";
             },},{id: "projects-eeg-signal-classification",
           title: 'EEG Signal Classification',
           description: "Compared CNN, RNN, Transformer, and hybrid models on EEG signal analysis while sweeping hyper-parameters, time-bin resolutions, and augmentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/EEG_Classification.html";
+            },},{id: "projects-ego2allo",
+          title: 'Ego2Allo',
+          description: "Developed a training and reasoning framework to strengthen visual perspective-taking in VLMs by combining Supervised Fine-Tuning (SFT) and RL-GRPO, achieving a 10% accuracy improvement on spatial reasoning benchmarks. Further integrated a ReAct-based function-calling agentic pipeline to abstract perspective changes with structured reasoning, yielding an additional 3% accuracy gain and more reliable viewpoint-aware predictions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Ego2Allo.html";
             },},{id: "projects-job-search",
           title: 'Job Search',
           description: "A personalized job recommendation platform that learns user preferences from their views and likes. Built with Java-based REST APIs and a scalable backend, the system uses dense embeddings, GPT-based preference extraction, and Redis vector search to deliver real-time, personalized recommendations. The platform integrates Amazon RDS for persistent job data and Redis for high-speed caching, embedding storage, and precomputed top-K results.",
@@ -73,7 +83,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%68%64%69%6E%67@%75%63%6C%61.%65%64%75", "_blank");
+          window.open("mailto:%61%64%69%6E%67%32@%61%6E%64%72%65%77.%63%6D%75.%65%64%75", "_blank");
         },
       },{
         id: 'social-github',
